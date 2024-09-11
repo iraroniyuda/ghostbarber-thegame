@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5397c64509ab92a4b9e8309aebcb66e1, type: 3}
+  m_Name: themeData
+  m_EditorClassIdentifier: 
+  themeName: NightTime
+  cost: 0
+  premiumCost: 0
+  themeIcon: {fileID: 21300038, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+  zones:
+  - length: 500
+    prefabList:
+    - m_AssetGUID: baf31dc160e3099428326b5a83db46cd
+      m_SubObjectName: 
+    - m_AssetGUID: 7f9eed4d340d06141a3c57dc69d8ed2c
+      m_SubObjectName: 
+    - m_AssetGUID: 6b55f4706bf1aa048a56792177cb63dc
+      m_SubObjectName: 
+  - length: 500
+    prefabList:
+    - m_AssetGUID: 226b344b8bdac594ea142309336337fe
+      m_SubObjectName: 
+    - m_AssetGUID: 49aa51c23aae1814da08106efff9839f
+      m_SubObjectName: 
+    - m_AssetGUID: 654b47fe18f35714aaf36bfa70b02983
+      m_SubObjectName: 
+    - m_AssetGUID: b27a4d1577ea1bd4f8a7f3dce60bf85c
+      m_SubObjectName: 
+  - length: 500
+    prefabList:
+    - m_AssetGUID: fd02fb81cd8dfa94fb3811b38b78b386
+      m_SubObjectName: 
+    - m_AssetGUID: 10f2606a4e949f5489f1ce27b91600df
+      m_SubObjectName: 
+    - m_AssetGUID: 4add46b17d5814744bb1498b198ed25d
+      m_SubObjectName: 
+    - m_AssetGUID: ed24d8dd91f5c544c8df6d3cf6dffc4c
+      m_SubObjectName: 
+    - m_AssetGUID: de7a496cae0fcec4ead023eb1ebf6257
+      m_SubObjectName: 
+    - m_AssetGUID: fee9019dfd7946b40892dcef5d3fcc42
+      m_SubObjectName: 
+    - m_AssetGUID: e01ea15bda91ee542a24f9c6f54bf6d3
+      m_SubObjectName: 
+    - m_AssetGUID: 5d29e217ab3c1874d8d99169dabbbe35
+      m_SubObjectName: 
+    - m_AssetGUID: e7a3bd1684c9dc34895c2b9f97f1aeae
+      m_SubObjectName: 
+    - m_AssetGUID: 5bc3c5bd95058764489501ac1024b7ea
+      m_SubObjectName: 
+    - m_AssetGUID: 9a4b7a23296b48b4981881bd17953ed7
+      m_SubObjectName: 
+    - m_AssetGUID: ee7969661b2b1e94891b8593e383883d
+      m_SubObjectName: 
+    - m_AssetGUID: 2ff30b5076d96ac4eb9ef7bf11a1bf5b
+      m_SubObjectName: 
+    - m_AssetGUID: 24e342794dd5ea94fa4836beedc3a776
+      m_SubObjectName: 
+  collectiblePrefab: {fileID: 184264, guid: 16cac8b68c4ca6448baecd0680e025f6, type: 3}
+  premiumCollectible: {fileID: 1000010457517272, guid: ac3c86c2382618643bfda6ab3cc81a0b,
+    type: 3}
+  cloudPrefabs:
+  - {fileID: 1000012225143368, guid: f788e812c45a0754a9e0342be76a1750, type: 3}
+  - {fileID: 1000012941456988, guid: 07a627dbf273e1d45bcb01af87c57cbb, type: 3}
+  - {fileID: 1000013540275922, guid: 8dc97c4ee68c61247bc0dcfb3fa8237e, type: 3}
+  cloudMinimumDistance: {x: 0, y: 10, z: 10}
+  cloudSpread: {x: 20, y: 1, z: 20}
+  cloudNumber: 20
+  skyMesh: {fileID: 4300000, guid: fc2e45f7433c13741aaad00729ca807f, type: 3}
+  UIGroundMesh: {fileID: 4300000, guid: 5a3ee9746dc25cb4f8d2e3a1a7382eab, type: 3}
+  fogColor: {r: 0.13559689, g: 0.27861834, b: 0.5588235, a: 1}
